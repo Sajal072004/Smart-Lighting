@@ -21,12 +21,12 @@ body, ul {
 }
 
 /* Style the header */
-header {
+.header1 {
     display: none; /* Add this for positioning */
 }
 
 /* Style the navigation menu */
-nav ul {
+.home-ul {
     display: flex;
     flex-direction: column; /* Display vertically on smaller screens */
     position: absolute;
@@ -37,7 +37,7 @@ nav ul {
     z-index: 1;
 }
 
-nav li {
+.home-li {
     margin-bottom: 18px; /* Add spacing between menu items */
 }
 
@@ -47,6 +47,43 @@ nav a{
     font-size: 20px;
     
 }
+
+.nav1{
+    background-color: transparent ; /* Bakground color of the navbar */
+    color: white; /* Text color of the links */
+    padding: 10px; 
+    margin-top:-8%;
+    margin-bottom:7%;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end/* Align items to the right */
+    
+}
+
+.nav-ul1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-li1{
+    margin-left: 10px; /* Adjust the spacing between menu items */
+    display: inline-block;
+}
+
+.nav-a{
+    text-decoration: none;
+    color: white;
+    padding: 10px; 
+}
+
+.nav-a:hover{
+    background-color: #555;
+}
+
 
 
 
@@ -103,8 +140,8 @@ nav a{
         
         
     }
+    
 }
-
 
 /* Media query to show/hide menu icon and adjust menu layout */
 @media screen and (max-width: 500px) {
@@ -112,6 +149,7 @@ nav a{
         .menu-icon {
             display: flex; /* Show on smaller screens */
         }
+        
         nav {
             display: none; /* Hide the navigation menu by default on smaller screens */
         }
@@ -119,7 +157,7 @@ nav a{
             display: flex; /* Show the navigation menu when the icon is clicked */
         }
     
-        header {
+        .header1 {
             background-color: #ffffff;
             color: #fff;
             display: flex;
@@ -186,7 +224,7 @@ nav a{
         display: flex; /* Show the navigation menu when the icon is clicked */
     }
 
-    header {
+    .header1 {
         background-color: #ffffff;
         color: #fff;
         display: flex;
