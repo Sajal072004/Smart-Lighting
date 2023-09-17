@@ -1,0 +1,176 @@
+body{
+    background-color: #172141;
+}
+.ministry{
+    width:20%;
+}
+.ministry-container{
+    position: relative;
+}
+
+
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the header */
+header {
+    display: none; /* Add this for positioning */
+}
+
+/* Style the navigation menu */
+nav ul {
+    display: flex;
+    flex-direction: column; /* Display vertically on smaller screens */
+    position: absolute;
+    top: 47px;
+    left: 0px;
+    background-color: #ffffff;
+    padding: 20px; /* Add some padding for spacing */
+    z-index: 1;
+}
+
+nav li {
+    margin-bottom: 18px; /* Add spacing between menu items */
+}
+
+nav a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+
+
+/* Style the menu icon */
+.menu-icon {
+    display: none; /* Hide by default on larger screens */
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #000000;
+    margin: 3px 0;
+}
+
+.home-image{
+    
+    width:80vw;
+}
+.home-image-container{
+    position: relative;
+    margin-top:-16%;
+    margin-left:15%;
+}
+
+
+/* Media query to show/hide menu icon and adjust menu layout */
+@media screen and (max-width: 500px) {
+    @media screen and (min-width: 370px) {
+        .menu-icon {
+            display: flex; /* Show on smaller screens */
+        }
+        nav {
+            display: none; /* Hide the navigation menu by default on smaller screens */
+        }
+        nav.show {
+            display: flex; /* Show the navigation menu when the icon is clicked */
+        }
+    
+        header {
+            background-color: #ffffff;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            position: relative;
+             /* Add this for positioning */
+        }
+    
+        .home-image-container{
+            position: relative;
+            margin-top:-10%;
+            margin-left:10%;
+        }
+    
+        .home-image{
+            margin-top:60%;
+            margin-left:-70%;
+            width:110%;
+        }
+        .smart{
+            position:absolute;
+            color: white;
+            margin:5%;
+            margin-left:55%;
+            font-size:14px;
+        }
+        .smart-sum{
+            
+        }
+    }
+}
+
+@media screen and (max-width: 370px){
+    .home-image{
+        margin-top:80%;
+        margin-left:-60%;
+        width:150%;
+    }
+    
+    .menu-icon {
+        display: flex; /* Show on smaller screens */
+    }
+    nav {
+        display: none; /* Hide the navigation menu by default on smaller screens */
+    }
+    nav.show {
+        display: flex; /* Show the navigation menu when the icon is clicked */
+    }
+
+    header {
+        background-color: #ffffff;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        position: relative;
+         /* Add this for positioning */
+    }
+
+    .home-image-container{
+        position: relative;
+        margin-top:-10%;
+        margin-left:10%;
+    }
+
+    
+    .smart{
+        position:absolute;
+        color: white;
+        margin:5%;
+        margin-left:55%;
+        font-size:14px;
+    }
+    
+    
+        
+        
+    }
+    
+
+    
+
+
+
+
