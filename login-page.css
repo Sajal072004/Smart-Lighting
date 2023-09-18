@@ -397,6 +397,55 @@ nav a{
     padding-right:10%;
     padding-top: 2%;
     padding-bottom:2%;
+    border-radius: 30px;
+}
+
+.email-div{
+    margin-left:32%;
+}
+
+.email-label{
+    color:white;
+    font-size: 20px;
+}
+
+.email-input{
+    margin-top:5%;
+    margin-left:0%;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top: 2%;
+    padding-bottom:2%;
+    border-radius: 30px;
+    margin-bottom:2%;
+}
+
+.password-label{
+    color:white;
+    font-size: 20px;
+}
+
+.password-input{
+    margin-top:5%;
+    margin-left:0%;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top: 2%;
+    padding-bottom:2%;
+    border-radius: 30px;
+    margin-bottom:5%;
+}
+
+.login-button{
+    background-color: rgb(48, 255, 224);
+    padding-left:26%;
+    padding-right:26%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius: 50px;
+}
+.login-button:hover{
+    background-color: #234edc;
 }
 
 }
