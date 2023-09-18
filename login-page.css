@@ -1,0 +1,14 @@
+body{
+    background: linear-gradient(to right, #172141 40%, #ffffff 40%);
+            margin: 0;
+            padding: 0;
+            height: 100vh; 
+}
+
+.ministry{
+    width:20%;
+}
+.ministry-container{
+    position: relative;
+}
+

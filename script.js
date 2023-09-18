@@ -25,4 +25,12 @@ menuIcon.addEventListener('click', () => {
 
 });
 
+function openNewPage(){
+    window.location.href = "login-page.html";
+}
+
+
+
+
+
 
