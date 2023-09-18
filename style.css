@@ -54,10 +54,13 @@ nav a{
     padding: 10px; 
     margin-top:-8%;
     margin-bottom:7%;
-    
+    width:100%;
+      
 }
 
 .navbar {
+    margin-left: 4%;
+    margin-right: 4%;
     display: flex;
     justify-content: flex-end/* Align items to the right */
     
@@ -70,7 +73,8 @@ nav a{
 }
 
 .nav-li1{
-    margin-left: 10px; /* Adjust the spacing between menu items */
+    margin-left: 2%; /* Adjust the spacing between menu items */
+    margin-right:2%;
     display: inline-block;
 }
 
