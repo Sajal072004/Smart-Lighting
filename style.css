@@ -48,7 +48,10 @@ nav a{
     
 }
 
-
+.button-1{
+    position:absolute;
+    
+}
 
 
 
@@ -255,13 +258,15 @@ nav a{
         
         
     }
+
+    
     
 }
 
 
 
 /* Media query to show/hide menu icon and adjust menu layout */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
     @media screen and (min-width: 370px) {
         .menu-icon {
             display: flex; /* Show on smaller screens */
@@ -292,7 +297,8 @@ nav a{
         }
     
         .home-image{
-            margin-top :75vw;
+            position:fixed;
+            margin-top :-13%;
             margin-left:-60%;
             width:110%;
         }
@@ -319,6 +325,21 @@ nav a{
             font-family: Sans-serif;
             
             
+        }
+
+        .but-1{
+            margin-top: 50vh;
+            margin-left:49%;
+            background-color: white;
+            color:#172141;
+            padding:3% 11% 3% 11%;
+            border-radius: 60px;
+            font-weight:bolder;
+            transition : background-color 0.3s ease;
+        }
+        .but-1:hover{
+            background-color: #172141;
+            color:white;
         }
         
     }
