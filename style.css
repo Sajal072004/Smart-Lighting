@@ -330,6 +330,7 @@ nav a{
         .but-1{
             margin-top: 50vh;
             margin-left:49%;
+            margin-bottom:50px;
             background-color: white;
             color:#172141;
             padding:3% 11% 3% 11%;
@@ -398,6 +399,7 @@ nav a{
         .but-1{
             position:absolute;
             margin-top: 450px;
+            margin-bottom:50px;
             margin-left:10%;
             background-color: white;
             color:#172141;
