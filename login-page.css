@@ -356,6 +356,26 @@ nav a{
     }     
     }
 
+    
+@media screen and (max-width :670px)
+{
+.user-login{
+    margin-left:30%;
+    font-size: 40px;
+    color:white;
+    margin-top:7%;
+    margin-bottom:2%;
+    font-weight: 700;
+    font-family: Sans-Serif;
+}
+
+.user-login-para{
+    margin-left:30%;
+    font-size:20px;
+    color:white;
+}
+
+}
 
 
 
