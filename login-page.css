@@ -370,9 +370,33 @@ nav a{
 }
 
 .user-login-para{
-    margin-left:30%;
+    margin-left:31%;
     font-size:20px;
     color:white;
+    margin-top: 2%;
+    margin-bottom:8%;
+}
+
+.dropdown{
+   
+    margin:2%;
+    margin-left:30%;
+}
+
+.dropdown-label{
+    color:white;
+    margin:2%;
+    font-size: 20px;
+    
+}
+
+.dropdown-box{
+    margin-top:5%;
+    margin-left:3%;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top: 2%;
+    padding-bottom:2%;
 }
 
 }
