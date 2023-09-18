@@ -40,6 +40,12 @@ body, ul {
 .home-li {
     margin-bottom: 18px; /* Add spacing between menu items */
 }
+.home-li:hover{
+    background-color: white;
+}
+.home-ul:hover{
+    background-color:  #406dff;
+}
 
 nav a{
     color: #000000;
