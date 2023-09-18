@@ -127,6 +127,107 @@ nav a{
     }
 }
 
+@media screen and (min-width: 851px)
+{
+    @media screen and (max-width: 1200px)
+    {
+        .nav1{
+            background-color: transparent ; /* Bakground color of the navbar */
+            color: white; /* Text color of the links */
+            padding: 10px; 
+            margin-top:-8%;
+            margin-bottom:7%;
+            
+              
+        }
+        
+        .navbar {
+            
+            margin-right: 2%;
+            display: flex;
+            justify-content: flex-end/* Align items to the right */
+            
+        }
+        
+        .nav-ul1{
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+        }
+        
+        .nav-li1{
+            margin-left: -4%; /* Adjust the spacing between menu items */
+            margin-right:4%;
+            display: inline-block;
+            padding:10px;
+        }
+        
+        .nav-a{
+            text-decoration: none;
+            color: white;
+            padding: 12px; 
+        }
+        
+        .nav-a:hover{
+            background-color: #555;
+        }
+        
+    }
+}
+
+
+@media screen and (min-width: 1201px)
+{
+   
+        .nav1{
+            background-color: transparent ; /* Bakground color of the navbar */
+            color: white; /* Text color of the links */
+            padding: 10px; 
+            margin-top:-10%;
+            margin-bottom:6%;
+            
+              
+        }
+        
+        .navbar {
+            
+            margin-right: 2%;
+            display: flex;
+            justify-content: flex-end/* Align items to the right */
+            
+        }
+        
+        .nav-ul1{
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+        }
+        
+        .nav-li1{
+            margin-left: -6%; /* Adjust the spacing between menu items */
+            margin-right:4%;
+            display: inline-block;
+            padding:10px;
+            padding-left:40px;
+            
+        }
+        
+        .nav-a{
+            text-decoration: none;
+            color: white;
+            padding: 12px;
+            font-size:25px; 
+        }
+        
+        .nav-a:hover{
+            background-color: #555;
+        }
+        
+    }
+
+
+
+
 @media screen and (min-width : 501px)
 {
 
@@ -156,6 +257,8 @@ nav a{
     }
     
 }
+
+
 
 /* Media query to show/hide menu icon and adjust menu layout */
 @media screen and (max-width: 600px) {
