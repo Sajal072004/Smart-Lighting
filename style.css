@@ -338,7 +338,7 @@ nav a{
             transition : background-color 0.3s ease;
         }
         .but-1:hover{
-            background-color: #172141;
+            background-color: #406dff;
             color:white;
         }
         
@@ -391,6 +391,25 @@ nav a{
     
         
         
+    }
+
+    @media screen and (min-width:670px)
+    {
+        .but-1{
+            position:absolute;
+            margin-top: 450px;
+            margin-left:10%;
+            background-color: white;
+            color:#172141;
+            padding:13px 60px 13px 60px;
+            border-radius: 60px;
+            font-weight:bolder;
+            transition : background-color 0.3s ease;
+        }
+        .but-1:hover{
+            background-color: #406dff;
+            color:white;
+        }
     }
     
 
