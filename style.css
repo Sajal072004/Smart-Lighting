@@ -48,45 +48,7 @@ nav a{
     
 }
 
-.nav1{
-    background-color: transparent ; /* Bakground color of the navbar */
-    color: white; /* Text color of the links */
-    padding: 10px; 
-    margin-top:-8%;
-    margin-bottom:7%;
-    width:100%;
-      
-}
 
-.navbar {
-    margin-left: 4%;
-    margin-right: 4%;
-    display: flex;
-    justify-content: flex-end/* Align items to the right */
-    
-}
-
-.nav-ul1{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-li1{
-    margin-left: 2%; /* Adjust the spacing between menu items */
-    margin-right:2%;
-    display: inline-block;
-}
-
-.nav-a{
-    text-decoration: none;
-    color: white;
-    padding: 10px; 
-}
-
-.nav-a:hover{
-    background-color: #555;
-}
 
 
 
@@ -115,6 +77,54 @@ nav a{
     position: relative;
     margin-top:-16%;
     margin-left:15%;
+}
+
+@media screen and (min-width: 501px)
+{
+    @media screen and (max-width: 850px)
+    {
+        .nav1{
+            background-color: transparent ; /* Bakground color of the navbar */
+            color: white; /* Text color of the links */
+            padding: 10px; 
+            margin-top:-8%;
+            margin-bottom:7%;
+            
+              
+        }
+        
+        .navbar {
+            
+            margin-right: 2%;
+            display: flex;
+            justify-content: flex-end/* Align items to the right */
+            
+        }
+        
+        .nav-ul1{
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+        }
+        
+        .nav-li1{
+            margin-left: -4%; /* Adjust the spacing between menu items */
+            margin-right:4%;
+            display: inline-block;
+            padding:10px;
+        }
+        
+        .nav-a{
+            text-decoration: none;
+            color: white;
+            padding: 12px; 
+        }
+        
+        .nav-a:hover{
+            background-color: #555;
+        }
+        
+    }
 }
 
 @media screen and (min-width : 501px)
