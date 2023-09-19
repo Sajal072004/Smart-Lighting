@@ -1,18 +1,14 @@
-@media screen and ( min-width:671px)
-{
-body{
-    background: linear-gradient(to right, #172141 40%, #ffffff 40%);
-            margin: 0;
-            padding: 0;
-            height: 100vh; 
-}
-}
+
 
 .ministry{
     width:20%;
 }
 .ministry-container{
     position: relative;
+}
+
+.ministry-image-page-2{
+    display: none;
 }
 
 
@@ -359,6 +355,7 @@ nav a{
     
 @media screen and (max-width :670px)
 {
+
 .user-login{
     margin-left:30%;
     font-size: 40px;
@@ -448,6 +445,121 @@ nav a{
     background-color: #234edc;
 }
 
+}
+
+
+@media screen and (min-width: 671px)
+{
+@media screen and (max-width :850px)
+{
+.user-login{
+    margin-left:2%;
+    font-size: 40px;
+    color:white;
+    margin-top:-7%;
+    margin-bottom:2%;
+    font-weight: 700;
+    font-family: Sans-Serif;
+}
+
+.user-login-para{
+    margin-left:2%;
+    font-size:20px;
+    color:white;
+    margin-top: 1%;
+    margin-bottom:5%;
+}
+
+.dropdown{
+   
+    margin:0%;
+    margin-left:0%;
+}
+
+.dropdown-label{
+    color:white;
+    margin:2%;
+    
+    font-size: 20px;
+    
+}
+
+.dropdown-box{
+    margin-top:2%;
+    margin-bottom:1%;
+    margin-left:3%;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top: 1%;
+    padding-bottom:1%;
+    border-radius: 30px;
+}
+
+.email-div{
+    margin-left:2%;
+}
+
+.email-label{
+    color:white;
+    font-size: 20px;
+}
+
+.email-input{
+    margin-top:1%;
+    margin-left:0%;
+    padding-left:8%;
+    padding-right:8%;
+    padding-top: 1%;
+    padding-bottom:1%;
+    border-radius: 30px;
+    margin-bottom:2%;
+}
+
+.password-label{
+    color:white;
+    font-size: 20px;
+}
+
+.password-input{
+    margin-top:1%;
+    margin-left:0%;
+    padding-left:8%;
+    padding-right:8%;
+    padding-top: 1%;
+    padding-bottom:1%;
+    border-radius: 30px;
+    margin-bottom:5%;
+}
+
+.login-button{
+    background-color: rgb(48, 255, 224);
+    padding-left:20%;
+    padding-right:20%;
+    padding-top:1%;
+    padding-bottom:1%;
+    border-radius: 50px;
+}
+.login-button:hover{
+    background-color: #234edc;
+}
+
+body{
+    background: linear-gradient(to right, #172141 50%, #ffffff 40%);
+            margin: 0;
+            padding: 0;
+            height: 100vh; 
+}
+
+.ministry-image-page-2{
+    display:block;
+    position:fixed;
+    margin-top:-45%;
+    width:40%;
+    margin-left:55%;
+}
+
+
+}
 }
 
 
